@@ -47,11 +47,13 @@ html{
 }
 
 .nav_icons{
+    height: 75px;
     margin: 0 auto;
     max-width: 1600px; 
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     box-sizing: border-box;
 }
 
