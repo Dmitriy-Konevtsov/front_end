@@ -47,7 +47,7 @@ html{
 }
 
 .nav_icons{
-    height: 75px;
+    padding: 19px 0 13px;
     margin: 0 auto;
     max-width: 1600px; 
     width: 100%;
@@ -122,7 +122,7 @@ button:focus {
 }
 
 .header_img_wrp{
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -309,11 +309,12 @@ button:focus {
 ====================== */
 
 .footer_middle{
+
     height: 448px;
     background-image: url(../img/footer_img/photo\ subscribe.png);
     background-repeat: no-repeat;
-    
-    
+    background-position: center;
+    background-size: contain;  
 }
 
 
@@ -463,8 +464,32 @@ input, textarea {
 ============================= */
 
 .catalog_header{
-    width: 100%;
-    min-width: 1600px;
     background: #F8F3F4;
 }
 
+.catalog_header_txt{
+    
+    max-width: 1600px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header_left_txt{
+    text-transform: uppercase;
+
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.header_right_txt{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
