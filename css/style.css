@@ -487,9 +487,13 @@ input, textarea {
 }
 
 .header_right_txt{
+
     text-transform: uppercase;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #636363;
 }
+
+/* MAIN
+====================== */
