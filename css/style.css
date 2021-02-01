@@ -52,7 +52,7 @@ html{
     max-width: 1600px; 
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
@@ -474,7 +474,7 @@ input, textarea {
     box-sizing: border-box;
     padding: 60px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
