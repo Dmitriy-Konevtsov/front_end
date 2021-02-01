@@ -497,3 +497,36 @@ input, textarea {
 
 /* MAIN
 ====================== */
+
+
+.pages{
+    padding: 12px 40px;
+    border-radius: 2px;
+    border: 2px solid #EBEBEB;
+    width: 283px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+    
+}
+
+.pages_list{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.pink{
+    color:#F16D7F;
+}
+
+.pages_links{
+    color: #636363;
+    list-style-type: none;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
