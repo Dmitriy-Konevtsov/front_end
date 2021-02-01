@@ -455,3 +455,16 @@ input, textarea {
     fill:#fff;
     background-color: #F16D7F;
 }
+
+
+/* CATALOG PAGE
+=============================
+=============================
+============================= */
+
+.catalog_header{
+    width: 100%;
+    min-width: 1600px;
+    background: #F8F3F4;
+}
+
