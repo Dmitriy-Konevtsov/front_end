@@ -192,10 +192,36 @@ button:focus {
 
 
 .card{
+    position: relative;
     box-sizing:border-box;
     background: #F8F8F8;
     margin-bottom: 20px;
 
+}
+
+.card:hover .image{
+    filter: brightness(30%);
+
+}
+
+.card:hover .product_card_hover {
+    display: block;
+}
+
+
+
+.image{
+    display: block;
+}
+
+.product_card_hover{
+    position: absolute;
+    display: none;
+    padding: 10px 15px 8px 13px;
+    box-sizing: border-box;
+    background: transparent;
+    top: 118.5px;
+    right: 110.5px;
 }
 
 
@@ -313,8 +339,9 @@ button:focus {
     height: 448px;
     background-image: url(../img/footer_img/photo\ subscribe.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;  
+    /* background-position: center; */
+    background-size: cover;
+     
 }
 
 
