@@ -536,6 +536,10 @@ input, textarea {
     list-style: none;
 }
 
+.filter_list:first-child{
+    margin-right: 338px;
+
+}
 
 
 .pages{
