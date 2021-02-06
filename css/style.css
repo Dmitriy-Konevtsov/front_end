@@ -148,16 +148,75 @@ button:focus {
 ====================== */
 
 .offer_item{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin-top: 65px;
 }
 
+.categories-item_woman{
+    width: 360px;
+    min-height: 260px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/woman.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.categories-item-subtitle{
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 105px;
+    text-transform: uppercase;
+}
+
+.categories-item-title{
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.categories-item_man{
+    width: 360px;
+    min-height: 260px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/men.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.categories-item_kids{
+    width: 360px;
+    min-height: 260px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/kids.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .accesories{
     margin-top: 30px;
+    width: 1140px;
+    min-height: 180px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/accsesories.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accesories-correction{
+    padding-top: 65px;
 }
 
 .offer_title{
+    display: block;
     text-align: center;
     line-height: 36px;
     color: #222222;
@@ -168,6 +227,7 @@ button:focus {
 }
 
 .offer_text{
+    display: block;
     line-height: 17px;
     color: #9F9F9F;
     text-align: center;
@@ -243,6 +303,7 @@ button:focus {
 
 
 .card_title{
+    display: block;
     padding-top: 24px;
     font-weight: 600;
     margin-left: 18px;
@@ -253,20 +314,19 @@ button:focus {
 }
 
 .card_text{
+    display: block;
     font-weight: 200;
     font-size: 14px;
     line-height: 17px;
     margin-left: 18px;
     margin-top: 13px;
-    
-}
-
-.card_description{
     width: 315px;
+    
 }
 
 
 .card_price{
+    display: block;
     color: #F16D7F;
     padding: 18px 0 20px 18px;
 }
