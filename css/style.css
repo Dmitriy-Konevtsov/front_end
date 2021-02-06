@@ -80,7 +80,7 @@ button:focus {
 }
 
 .effects:active{
-    fill: lightslategrey;
+    fill: rgb(228, 19, 193);
 
 }
 
@@ -462,6 +462,7 @@ input, textarea {
 .footer_bottom{
     background: #222224;
     box-sizing: border-box;
+    padding: 25px 0;
 }
 
 
@@ -488,11 +489,11 @@ input, textarea {
 }
 
 .social{
-    margin-right: 8px;
+    padding: 10px;
+    margin-right: 10px;
     cursor: pointer;
-    width: 30px;
-    min-height: 30px;
-    fill: black;
+    background: #fff;
+    fill: black; 
 }
 
 .social:hover{
@@ -554,15 +555,13 @@ input, textarea {
     color: #000000;
     margin-right: 30px;
     list-style: none;
+    
 }
 
 .filter_list_color{
     font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #6F6E6E;
+    line-height: 17px;
+    color: #6F6E6E;
 }
 
 .filter_list:first-child{
