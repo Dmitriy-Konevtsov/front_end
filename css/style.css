@@ -80,7 +80,7 @@ button:focus {
 }
 
 .effects:active{
-    fill: lightslategrey;
+    fill: rgb(228, 19, 193);
 
 }
 
@@ -148,16 +148,75 @@ button:focus {
 ====================== */
 
 .offer_item{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin-top: 65px;
 }
 
+.categories-item_woman{
+    width: 360px;
+    min-height: 260px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/woman.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.categories-item-subtitle{
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 105px;
+    text-transform: uppercase;
+}
+
+.categories-item-title{
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.categories-item_man{
+    width: 360px;
+    min-height: 260px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/men.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.categories-item_kids{
+    width: 360px;
+    min-height: 260px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/kids.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .accesories{
     margin-top: 30px;
+    width: 1140px;
+    min-height: 180px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/offer/accsesories.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accesories-correction{
+    padding-top: 65px;
 }
 
 .offer_title{
+    display: block;
     text-align: center;
     line-height: 36px;
     color: #222222;
@@ -168,6 +227,7 @@ button:focus {
 }
 
 .offer_text{
+    display: block;
     line-height: 17px;
     color: #9F9F9F;
     text-align: center;
@@ -240,9 +300,8 @@ button:focus {
 }
 
 
-
-
 .card_title{
+    display: block;
     padding-top: 24px;
     font-weight: 600;
     margin-left: 18px;
@@ -253,20 +312,19 @@ button:focus {
 }
 
 .card_text{
+    display: block;
     font-weight: 200;
     font-size: 14px;
     line-height: 17px;
     margin-left: 18px;
     margin-top: 13px;
-    
-}
-
-.card_description{
     width: 315px;
+    
 }
 
 
 .card_price{
+    display: block;
     color: #F16D7F;
     padding: 18px 0 20px 18px;
 }
@@ -296,11 +354,15 @@ button:focus {
 }
 
 .button_link:hover{
-    content: "";
+    
     background-color: #F26376;
     color: #fff;
     
 }
+.button_link:active{
+    border: 3px solid #F26376;
+}
+
 
 /* FOOTER-TOP
 ====================== */
@@ -462,6 +524,7 @@ input, textarea {
 .footer_bottom{
     background: #222224;
     box-sizing: border-box;
+    padding: 25px 0;
 }
 
 
@@ -477,7 +540,6 @@ input, textarea {
        
 }
 .rights{
-    /* margin-right: 730px; */
     display: block;
     font-size: 16px;
     line-height: 19px;
@@ -488,11 +550,11 @@ input, textarea {
 }
 
 .social{
-    margin-right: 8px;
+    padding: 10px;
+    margin-right: 10px;
     cursor: pointer;
-    width: 30px;
-    min-height: 30px;
-    fill: black;
+    background: #fff;
+    fill: black; 
 }
 
 .social:hover{
@@ -554,15 +616,40 @@ input, textarea {
     color: #000000;
     margin-right: 30px;
     list-style: none;
+    fill: black;
+    cursor: pointer;
+}
+
+
+.filter_link{
+    color: #000000;
+}
+
+.filter_link:hover{
+    fill: #F16D7F;;
+    color: #F16D7F;
+}
+
+.filter_link:active{
+    color: black;
+    fill: black;
 }
 
 .filter_list_color{
     font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+    line-height: 17px;
+    color: #6F6E6E;
+    fill: #6F6E6E;
+}
 
+.filter_list_color:hover{
+    fill: #F16D7F;;
+    color: #F16D7F;
+}
 
-color: #6F6E6E;
+.filter_list_color:active{
+    color: black;
+    fill: black;
 }
 
 .filter_list:first-child{
@@ -572,20 +659,20 @@ color: #6F6E6E;
 
 
 .pages{
-    padding: 12px 40px;
+    padding: 12px 20px;
     border-radius: 2px;
     border: 2px solid #EBEBEB;
-    width: 283px;
+    width: 292px;
     margin: 0 auto;
-    margin-bottom: 95px;
-    
+    margin-bottom: 95px; 
 }
 
 .pages_list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 }
+
 
 .pink{
     color:#F16D7F;
@@ -594,10 +681,18 @@ color: #6F6E6E;
 .pages_links{
     color: #636363;
     list-style-type: none;
+    fill: black;
 }
 
+.pages_links:hover{
+    color:#F16D7F;
+    fill:#636363;
+}
 
-
+.pages_links:active{
+    color:black;
+    fill:black;
+}
 
 a{
     text-decoration: none;
