@@ -714,6 +714,7 @@ a{
     justify-content: space-between;
     align-items: center;
     max-width: 1600px;
+    padding-bottom: 54px;
     
 }
 .product_page_img{
@@ -741,5 +742,88 @@ a{
     fill: black;
 }
 
+/* INFORMATION
+====================== */
 
+.information{
+    box-sizing: border-box;
+}
+
+.information_text{
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 64px;
+    background: #FFFFFF;
+}
+
+.woman_collection{
+    padding-top: 64px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.border_pink{
+    margin: 0 auto;
+}
+
+.moschino{
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 12px 0 49px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.main_information_text{
+    margin: 0 auto;
+    width: 555px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    padding-bottom: 33px;
+
+}
+
+.information_price{
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
+
+.border_grey{
+    margin: 0 auto;
+}
+
+.choose_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.choose_menu_list{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-right: 30px;
+    list-style: none;
+    fill: black;
+    cursor: pointer;
+    padding:65px 0 49px 0;
+}
 
