@@ -703,18 +703,18 @@ a{
 =============================
 =============================
 ============================= */
-.test{
+.product_page_woman_img{
     box-sizing: border-box;
     background: #F7F7F7; 
 }
 
 .product_page_img_wrp{
-    max-width: 1400px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
+    max-width: 1600px;
+    
 }
 .product_page_img{
     width: 597px;
@@ -722,4 +722,24 @@ a{
     background-image: url(../img/product_page/img/woman.png);
     background-repeat: no-repeat;
 }
+
+.arrows{
+    box-sizing: border-box;
+    fill: black;
+    width: 47px;
+    height: 47px;
+    padding-top: 11.5px;
+    text-align: center;
+    background: rgba(42, 42, 42, 0.15);
+}
+
+.arrows:hover{
+    fill:#F16D7F;
+}
+
+.arrows:active{
+    fill: black;
+}
+
+
 
