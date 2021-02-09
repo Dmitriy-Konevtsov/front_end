@@ -697,3 +697,29 @@ input, textarea {
 a{
     text-decoration: none;
 }
+
+
+/* PRODUCT PAGE
+=============================
+=============================
+============================= */
+.test{
+    box-sizing: border-box;
+    background: #F7F7F7; 
+}
+
+.product_page_img_wrp{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product_page_img{
+    width: 597px;
+    min-height: 724px;
+    background-image: url(../img/product_page/img/woman.png);
+    background-repeat: no-repeat;
+}
+
