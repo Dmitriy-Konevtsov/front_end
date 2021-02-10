@@ -827,3 +827,33 @@ a{
     padding:65px 0 49px 0;
 }
 
+.product_cart{
+    background: #fff;
+    border: 1px solid #F26376;
+    fill: #F26376;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 215px;
+    padding: 10px 0;
+
+}
+.cart_text{
+    padding-right: 38px;
+    color: #F26376;
+    padding-top: 8px;
+}
+
+.product_cart:hover{
+    background: #F26376;
+    fill: #fff;
+    color: #fff;
+}
+
+.cart_text:hover{
+    background: #F26376;
+    /* color: #fff; */
+    
+}
+
