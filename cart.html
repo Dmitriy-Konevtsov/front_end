@@ -72,8 +72,8 @@
     </header>
     <main>
         <div class="container">
-            <div class="test2">
-                <div class="cart_card_wrp">
+            <div class="cart_section_top">
+                <div class="cart_card_wrp_top">
                     <div class class="cart_card">
                         <a href="#">
                             <img src="img/cart_page/cart_man_1.png" alt="man" height="306">
@@ -88,38 +88,25 @@
                         </button>
                         <ul class="card_cart_list">
                             <li class="mango_txt">mango people <br> t-shirt</li>
-                            <li class="price_txt">Price: <span class="pink">$300</span></li>
-                            <li class="color_txt">Color: Red</li>
-                            <li class="size_txt">Size: Xl</li>
+                            <li class="card_txt">Price: <span class="pink">$300</span></li>
+                            <li class="card_txt">Color: Red</li>
+                            <li class="card_txt">Size: Xl</li>
                             <li class="quantity_txt">Quantity: <span class="cart_border">2</span> </li>
                         </ul>
                     </div>
                 </div>
                 <div class="cart_form">
-                    <span class="shipping">shipping adress</span>
-                    <form action="#" method="post">
-                        <div>
-                            <input class="country" type="text" placeholder="Bangladesh" required>
-                        </div>
-
-                        <div>
-                            <label>
-                                <input class="state" type="text" placeholder="State" required>
-                            </label>
-                        </div>
-
-                        <div>
-                            <label>
-                                <input class="post" type="text" placeholder="Postcode / Zip" required>
-                            </label>
-                        </div>
-
-                        <div>
-                            <input type="submit" value="get a quote">
-                        </div>
+                    <form class="cart_form_wrp" action="#" method="post">
+                        <span class="shipping">shipping adress</span>
+                        <input class="form_info" type="text" placeholder="Bangladesh" required>
+                        <input class="form_info" type="text" placeholder="State" required>
+                        <input class="form_info" type="text" placeholder="Postcode / Zip" required>
+                        <button class="quote" type="button">get a quote</button>
                     </form>
                 </div>
-                <div class="cart_card_wrp">
+            </div>
+            <div class="cart_section_bottom">
+                <div class="cart_card_wrp_bottom">
                     <div class class="cart_card">
                         <a href="#">
                             <img src="img/cart_page/cart_man_2.png" alt="man" height="306">
@@ -134,15 +121,27 @@
                         </button>
                         <ul class="card_cart_list">
                             <li class="mango_txt">mango people <br> t-shirt</li>
-                            <li class="price_txt">Price: <span class="pink">$300</span></li>
-                            <li class="color_txt">Color: Red</li>
-                            <li class="size_txt">Size: Xl</li>
+                            <li class="card_txt">Price: <span class="pink">$300</span></li>
+                            <li class="card_txt">Color: Red</li>
+                            <li class="card_txt">Size: Xl</li>
                             <li class="quantity_txt">Quantity: <span class="cart_border">2</span> </li>
                         </ul>
                     </div>
                 </div>
+                <div class="grey_square">
+                    <span class="sub_total">sub total
+                        <span class="grey_square_price">$900</span>
+                    </span>
+                    <span class="grand">grand total
+                        <span class="grey_square_price_pink">$900</span>
+                    </span>
 
+                    <svg class="cart_page_line" width="275" height="1" viewBox="0 0 275 1"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M275 0H0V1H275V0Z"/>
+                    </svg>
 
+                    <button class="checkout_btn">proceed to checkout</button>
+                </div>
             </div>
         </div>
     </main>
