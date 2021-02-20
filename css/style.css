@@ -1225,3 +1225,130 @@ a{
     color: #000000;
     background: #fff;
 }
+
+/* REGISTRATION PAGE
+=============================
+=============================
+============================= */
+
+.registration_form_wrp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.registration_form{
+    box-sizing: border-box;
+}
+
+.top_txt{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.reg_name{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 360px;
+    padding: 11.5px 0 11.5px 16px;
+    margin-top: 20px;
+}
+
+.radio_btn{
+    margin: 31px 20px 0 0;
+    
+}
+
+.male{
+    padding-right: 20px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.details{
+    display: block;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.registration_info{
+    width: 359px;
+    display: block;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin: 15px 0 39px 0;
+}
+
+.join_btn{
+    box-sizing: border-box;
+    color: #fff;
+    padding: 15px 43px;
+    text-transform: uppercase;
+    display: block;
+    background: #F16D7F;
+    border: none;
+    cursor: pointer;
+    fill: white;
+    margin-bottom: 96px;
+}
+
+.join_btn:hover{
+    border: 1px solid #000;
+    background: #fff;
+    color: #F16D7F;
+    fill: #F16D7F;
+}
+
+.join_btn:active{
+    fill: white;
+    background: #F16D7F;
+    color: #fff;
+}
+
+.join_btn_txt{
+    padding-right: 10px;
+}
+
+
+.loyalty_program{
+    margin: 22px 0 ;
+    width: 652px;
+    display: block;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.loyalty_txt{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.loyalty_list{
+    list-style: none;
+}
+
+.loyalty_list_txt{
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.check{
+    margin-right: 20px;
+    fill: black;
+}
